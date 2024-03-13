@@ -22,7 +22,7 @@ creater.onclick = function(){
     newNotes(note.value,checkerTime.checked,checkerImportance.checked)
     note.value = ''
     checkerImportance.checked = false 
-    checkerTime.checked = true
+    checkerTime.checked = false
     
 }
 console.log(checkerImportance.checked)
