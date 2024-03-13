@@ -30,16 +30,32 @@ console.log(checkerImportance.checked)
 
 
 function newNotes(note,time,importance){
-    if (time == true && importance == true){
-
+    if ((time == true) && (importance == true)){
+        listElement1.insertAdjacentHTML('beforeend',`
+        <li>
+            <span>${note}<span/>
+        </li>
+        `) 
     }
-    if (time == false && importance == true){
-
+    if ((time == false) && (importance == true)){
+        listElement2.insertAdjacentHTML('beforeend',`
+        <li>
+            <span>${note}<span/>
+        </li>
+        `) 
     }
-    if (time == true && importance == false){
-        
+    if ((time == true )&& (importance == false)){
+        listElement3.insertAdjacentHTML('beforeend',`
+        <li>
+            <span>${note}<span/>
+        </li>
+        `) 
     }
-    else {
-
+    if((time == false )&& (importance == false)) {
+        listElement4.insertAdjacentHTML('beforeend',`
+        <li>
+            <span>${note}<span/>
+        </li>
+        `) 
     }
 }

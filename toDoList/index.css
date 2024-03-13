@@ -3,13 +3,14 @@
     padding: 0px;
 }
 body {
-    background-color: #47b2c5;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #22889a , #c9d6ff);
     align-items: center;
 } 
-div {
-    border:solid 1px ;
+/* div {
 
-} 
+
+}  */
 .container{
     border:solid 1px ;
     top:  50px;
@@ -22,14 +23,17 @@ div {
     position: relative;
     width: 350px;
     height: 80vh;
+    border-radius: 10px;
 }
 .content{
+    border-radius: 5px;
     border:solid 1px ;
     width: 150px;
     height: 150px;
     margin: 10px;
 }
 .inputbox{
+    border:solid none;
     justify-content: center;
     text-align: center;
 }
@@ -51,12 +55,20 @@ div {
 }
 #creater{
     border-radius: 10em;
-    color: white;
-    background-color: #8366ce;
+    color: #000;
+    background-color: transparent;
     border: color #32bdd5;;
 }
 #inputText{
     border-radius: 10em;
-    background-color: #32bdd5;
-    border: color #22889a;
+    /* background:linear-gradient(to right, #22889a ,#c9d6ff); */
+    border: none;
+    background-color: transparent;
+    /* text-decoration:#000?; */
 }
+#inputText::placeholder{
+    color: #000;
+}
+li {
+    list-style-type: none;
+} 
