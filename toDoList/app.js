@@ -16,7 +16,7 @@ const arrayNoties = {
     importance:false,
     noteText: 'test',
 }
-
+const span = document.getElementsByClassName('span')
 
 creater.onclick = function(){
     newNotes(note.value,checkerTime.checked,checkerImportance.checked)
@@ -58,4 +58,8 @@ function newNotes(note,time,importance){
         </li>
         `) 
     }
+}
+
+span.onclick = function(){
+    console.log('2312')
 }
