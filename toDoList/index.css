@@ -76,9 +76,9 @@ li {
     display: flex;
     width: 350px;
     height: 80vh;
-    border: solid #fff;
+    border: solid #fff 1px;
     left: 900px;
-    bottom: 575px;
+    bottom: 750px;
     border-radius: 10px;
 
 }
@@ -87,9 +87,9 @@ li {
 }
 #donebtn{
     background-color: transparent;
-    color: rgb(0, 0, 0);
     border-color: transparent;
     font-size: 30px;
+ 
 }
 .importence-time{
     display:block;
@@ -118,4 +118,16 @@ li {
     height: 33px;;
     right: 0.01px;
     border-bottom: solid 1px red;
+}
+.importence-time-{
+color: green
+}
+.importence-{
+    color: blue
+}
+.time-{
+    color: orange
+}
+.delete-{
+    color: red
 }
