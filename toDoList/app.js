@@ -20,10 +20,11 @@ const arrayNoties = [{
 const aceepter = document.getElementById("donebtn")
 const allNoties = document.getElementById("allNoties")
 creater.onclick = function(){
-    newNotes(note.value,checkerTime.checked,checkerImportance.checked)
+    newNotes(arrayNoties.noteText,checkerTime.checked,checkerImportance.checked)
     note.value = ""
     checkerImportance.checked = false 
     checkerTime.checked = false 
+    console.log(arrayNoties.noteText)
 }
 
 
